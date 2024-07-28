@@ -211,6 +211,24 @@ scene.setBackgroundImage(img`
     7777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777
     `)
 tiles.setCurrentTilemap(tilemap`レベル2`)
+game.setDialogCursor(img`
+    . f f . . f f f f f . . f f . 
+    f b b f f b b b b b f f b b f 
+    f 3 3 b b b b b b b b b 3 3 f 
+    f 3 3 b f b b b b b f b 3 3 f 
+    . f b b f b b 3 b b f b b f . 
+    . f b b b f b f b f b b b f . 
+    . f 1 1 1 1 f f f 1 1 1 1 f . 
+    . f 1 1 1 1 1 1 1 1 1 1 1 f . 
+    . f 1 1 1 f f 1 f f 1 1 1 f . 
+    . f b b f 3 3 f 3 3 f b b f . 
+    . . f b 1 1 3 f 3 1 1 b f . . 
+    . . f 1 1 f f 1 f f 1 1 f . . 
+    . . f 1 f 3 f 1 f 3 f 1 f . . 
+    . . f 1 f 3 f 1 f 3 f 1 f . . 
+    . . . f f f f f f f f f . . . 
+    `)
+game.splash("ヒマワリの種を集めよう", "「ひょこひょこ！」")
 motimiruku = sprites.create(img`
     . f f . . f f f f f . . f f . 
     f b b f f b b b b b f f b b f 
